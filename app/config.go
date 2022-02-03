@@ -7,8 +7,8 @@ import "github.com/neimarkbraga/win-node-svc/models"
 
 var Config = models.ServiceConfig{
 	Name: "MyApp", // name of service. Space is not allowed here
-	DisplayName: "My App", // display name of server. Spaces are allowed here
-	Description: "Description for my app",
+	DisplayName: "My App", // display name of service. Spaces are allowed here
+	Description: "Description for my app", // description of service
 
 	// Node
 	WorkingDirectory: "D:\\Users\\Makoy\\Projects\\MyApp", // root directory of node app
